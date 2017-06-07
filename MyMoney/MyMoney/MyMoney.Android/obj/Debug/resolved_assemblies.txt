@@ -71,3 +71,4 @@ E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\System.ComponentModel.dll
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\Mono.Security.dll
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\Xamarin.Forms.Core.UnitTests.dll

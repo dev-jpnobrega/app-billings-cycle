@@ -45,24 +45,11 @@ namespace MyMoney.ViewModel
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
         }
 
-        public async Task PushAsync<TViewModel>(params object[] args) where TViewModel : BaseViewModel
-        {
-            var viewModelType = typeof(TViewModel);
-            var viewModelTypeName = viewModelType.Name;
-            var viewModelWordLength = "ViewModel".Length;
-            var viewTypeName = $"MonkeyHubApp.Views.{viewModelTypeName.Substring(0, viewModelTypeName.Length - viewModelWordLength)}Page";
-            var viewType = Type.GetType(viewTypeName);
-
-            var page = Activator.CreateInstance(viewType) as Page;
-
-            var viewModel = Activator.CreateInstance(viewModelType, args);
-
-            if (page != null)
-                page.BindingContext = viewModel;
-
-            await Application.Current.MainPage.Navigation.PushAsync(page);
+        public async Task PushAsync(INavigation nav, Page page, bool animated = false)
+        { 
+            if (nav.NavigationStack.Count == 0 || nav.NavigationStack.Last().GetType() != page.GetType())
+                await nav.PushAsync(page, animated);                       
         }
-
 
         public async Task MessegerAlert(string title, string message, string cancel)
         {

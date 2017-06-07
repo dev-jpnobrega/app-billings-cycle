@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyMoney.Service.BillingCycle.Test;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,10 @@ namespace MyMoney
         {
             InitializeComponent();
             this.BindingContext = new ViewModel.MainPageViewModel();
+
+
+            BillingCycleData.InitializeData();
+
         }
     }
 }

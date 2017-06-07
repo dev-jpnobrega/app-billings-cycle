@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyMoney.View.MD.MasterDetailContainerPageDetail"
              xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize" 
-             Title="DashBoard" >
+             Title="Summary" NavigationPage.HasBackButton="False">
   <StackLayout Padding="10">
         <StackLayout VerticalOptions="Start" Padding="15" BackgroundColor="#0d7409">
             <Grid VerticalOptions="CenterAndExpand">
@@ -17,7 +17,7 @@
                 </Grid.RowDefinitions>                
                 <iconize:IconImage Grid.Column="1" Grid.RowSpan="2" VerticalOptions="End" HorizontalOptions="Center" Aspect="AspectFit"  Icon="fa-bank" IconSize="50" IconColor="White" />
                 <Label Grid.Column="0" Grid.Row="1" Text="Total de créditos: " Style="{StaticResource DashBoardLabelBox}" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" />
-                <Label Grid.Column="0" Grid.Row="0" Text="R$ 16.000,00" Style="{StaticResource DashBoardLabelBox}" FontSize="Large" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" />
+                <Label Grid.Column="0" Grid.Row="0" Text="{Binding SumCredits, StringFormat='{0:C}'}" Style="{StaticResource DashBoardLabelBox}" FontSize="Large" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" />
             </Grid>            
         </StackLayout>
 
@@ -33,7 +33,7 @@
                 </Grid.RowDefinitions>
                 <iconize:IconImage Grid.Column="1" Grid.RowSpan="2" VerticalOptions="End" HorizontalOptions="Center" Aspect="AspectFit"  Icon="fa-credit-card" IconSize="50" IconColor="White" />
                 <Label Grid.Column="0" Grid.Row="1" Text="Total de débitos: " Style="{StaticResource DashBoardLabelBox}" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" />
-                <Label Grid.Column="0" Grid.Row="0" Text="R$ 16.000,00" Style="{StaticResource DashBoardLabelBox}" FontSize="Large" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" />
+                <Label Grid.Column="0" Grid.Row="0" Text="{Binding SumDebits, StringFormat='{0:C}'}" Style="{StaticResource DashBoardLabelBox}" FontSize="Large" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" />
             </Grid>
         </StackLayout>
 
@@ -49,7 +49,7 @@
                 </Grid.RowDefinitions>
                 <iconize:IconImage Grid.Column="1" Grid.RowSpan="2" VerticalOptions="End" HorizontalOptions="Center" Aspect="AspectFit"  Icon="fa-money" IconSize="50" IconColor="White" />
                 <Label Grid.Column="0" Grid.Row="1" Text="Valor consolidado: " Style="{StaticResource DashBoardLabelBox}" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" />
-                <Label Grid.Column="0" Grid.Row="0" Text="R$ 16.000,00" Style="{StaticResource DashBoardLabelBox}" FontSize="Large" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" />
+                <Label Grid.Column="0" Grid.Row="0" Text="{Binding ValueConsolidated, StringFormat='{0:C}'}" Style="{StaticResource DashBoardLabelBox}" FontSize="Large" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" />
             </Grid>
         </StackLayout>
     </StackLayout>

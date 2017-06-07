@@ -2,6 +2,6 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SelectedDevice>LGE LG-K130</SelectedDevice>
-    <DefaultDevice>7" KitKat %284.4%29 XHDPI Tablet</DefaultDevice>
+    <DefaultDevice>teste</DefaultDevice>
   </PropertyGroup>
 </Project>

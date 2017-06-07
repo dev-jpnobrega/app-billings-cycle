@@ -1,4 +1,6 @@
 ﻿using MyMoney.Model;
+using MyMoney.View.BillingCycle;
+using MyMoney.View.MD;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -47,14 +49,14 @@ namespace MyMoney.ViewModel.MasterDetail
             {
                 Title = "Home",
                 Icon = "fa-home",
-                TargetType = typeof(MainPage)
+                TargetType = typeof(MasterDetailContainerPageDetail)
             });
 
             MenuItens.Add(new Model.MenuItem()
             {
-                Title = "Pesquisar",
-                Icon = "fa-search",
-                TargetType = typeof(MainPage)
+                Title = "Ciclos Pagamento",
+                Icon = "fa-gg-circle",
+                TargetType = typeof(BillingCycleView)
             });
 
 

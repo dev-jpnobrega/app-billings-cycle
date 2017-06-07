@@ -39,21 +39,35 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Authentication\IAuthentication.cs" />
+    <Compile Include="Control\MyListView.cs" />
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\BillingCycle\BillingCycle.cs" />
+    <Compile Include="Model\BillingCycle\Credit.cs" />
+    <Compile Include="Model\BillingCycle\Debit.cs" />
     <Compile Include="Model\MenuItem.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\UserFacebookAuthentication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\Azure\AzureService.cs" />
     <Compile Include="Service\Azure\IAzureService.cs" />
+    <Compile Include="Service\BillingCycle\Test\BillingCycleData.cs" />
     <Compile Include="Service\Facebook\FacebookService.cs" />
     <Compile Include="Service\Facebook\IFacebookService.cs" />
     <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="ViewModel\BillingCycle\BillingCycleDetailViewModel.cs" />
+    <Compile Include="ViewModel\BillingCycle\BillingCycleViewModel.cs" />
     <Compile Include="ViewModel\MainPageViewModel.cs" />
+    <Compile Include="ViewModel\MasterDetail\MasterDetailContainerPageDetailViewModel.cs" />
     <Compile Include="ViewModel\MasterDetail\MasterDetailMenuViewModel.cs" />
+    <Compile Include="View\BillingCycle\BillingCycleDetailView.xaml.cs">
+      <DependentUpon>BillingCycleDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BillingCycle\BillingCycleView.xaml.cs">
+      <DependentUpon>BillingCycleView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\MD\MasterDetailContainerMenuPage.xaml.cs">
       <DependentUpon>MasterDetailContainerMenuPage.xaml</DependentUpon>
     </Compile>
@@ -111,6 +125,9 @@
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Forms.Core.UnitTests">
+      <HintPath>C:\Users\JoãoPaulo\Desktop\multi\Xamarin.Forms.Proxy-master\Xamarin.Forms.Proxy\bin\Debug\Xamarin.Forms.Core.UnitTests.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Platform.dll</HintPath>
     </Reference>
@@ -122,10 +139,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Control\" />
+    <EmbeddedResource Include="View\BillingCycle\BillingCycleDetailView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="backgroundmainpage.jpg" />
+    <Content Include="plus.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\MD\MasterDetailContainerPage.xaml">
@@ -141,6 +162,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\MD\MasterDetailContainerMenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\BillingCycle\BillingCycleView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
