@@ -62,7 +62,8 @@ namespace MyMoney.Service.Azure
 
         public async Task<bool> LogoutAsync()
         {
-            if (!Settings.IsLoggedIn) return true;
+            if (!Settings.IsLoggedIn)
+                return true;
 
             Initialize();
 
@@ -78,11 +79,9 @@ namespace MyMoney.Service.Azure
             }
             catch (Exception ex)
             {
-
                 throw;
             }            
         }
-
 
         public async Task<Newtonsoft.Json.Linq.JToken> GetInfoProvider(string path)
         {

@@ -50,7 +50,7 @@ namespace MyMoney.Droid.Service
         }
 
 
-        public async void Register(Microsoft.WindowsAzure.MobileServices.Push push, IEnumerable<string> tags)
+        public async void Register(Push push, IEnumerable<string> tags)
         {
             try
             {
@@ -128,15 +128,12 @@ namespace MyMoney.Droid.Service
 
         void createNotification(string title, string desc)
         {
-            //Create notification
+
             var notificationManager = GetSystemService(Context.NotificationService) as NotificationManager;
-            //Create an intent to show ui
             var uiIntent = new Intent(this, typeof(MainActivity));
-            //Use Notification Builder
+
             NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
-            //Create the notification
-            //we use the pending intent, passing our ui intent over which will get       called
-            //when the notification is tapped.
+
             var notification =
                builder.SetContentIntent(PendingIntent.GetActivity(this, 0, uiIntent, 0))
                 .SetSmallIcon(2130837579)
@@ -146,7 +143,6 @@ namespace MyMoney.Droid.Service
                 .SetSound(RingtoneManager.GetDefaultUri(RingtoneType.Notification))
                 .SetAutoCancel(true).Build();
 
-            //Show the notification
             notificationManager.Notify(1, notification);
         }
     }

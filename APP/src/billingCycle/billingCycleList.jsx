@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { GetList } from './billingCycleAction'
+import { getList } from './billingCycleAction'
 
 class BillingCycleList extends Component {
     componentWillMount() {
-        this.props.GetList();
+        this.props.getList();
     }
 
-    renderRows() {
-        console.log(this.props.list)
+    renderRows() {     
         const bcs = this.props.list || []
-     
+        
         return bcs.map(bc => (
             <tr key={bc._id}>
                 <td>{bc.name}</td>
@@ -21,10 +20,8 @@ class BillingCycleList extends Component {
         ))
     }
 
-    render() {
-       console.log(this.props.list)
-       
-       const s = (
+    render() {    
+       return (
             <div>
                 <table>
                     <tr>
@@ -34,16 +31,14 @@ class BillingCycleList extends Component {
                     </tr>
                 </table>
                 <tbody>
-         
+                   {this.renderRows()}
                 </tbody>
             </div>
         )
-
-        return s
     }
 }
 
 const mapStateToProps = state => ({list: state.billingCycle.list}) 
-const mapDispatchToProps = dispatch => bindActionCreators({GetList}, dispatch)
+const mapDispatchToProps = dispatch => bindActionCreators({ getList }, dispatch)
 
 export default connect(mapStateToProps, mapDispatchToProps)(BillingCycleList)

@@ -13,6 +13,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+using MyMoney;
+
 namespace MyMoney.UWP
 {
     public sealed partial class MainPage

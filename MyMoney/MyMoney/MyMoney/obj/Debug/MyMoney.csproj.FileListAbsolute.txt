@@ -36,7 +36,6 @@ E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\bin\Debug\Xamarin.Forms.Xaml.pdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\bin\Debug\Xamarin.Forms.Xaml.xml
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.csproj.App.config
-E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.csprojResolveAssemblyReference.cache
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.MainPage.xaml.g.cs
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.App.xaml.g.cs
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.View.BillingCycle.BillingCycleDetailView.xaml.g.cs
@@ -46,3 +45,4 @@ E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.View.BillingCycle.BillingCycleView.xaml.g.cs
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.dll
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.pdb
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\obj\Debug\MyMoney.csprojResolveAssemblyReference.cache

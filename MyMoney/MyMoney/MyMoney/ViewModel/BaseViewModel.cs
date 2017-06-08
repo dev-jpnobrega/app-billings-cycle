@@ -59,6 +59,6 @@ namespace MyMoney.ViewModel
         public async Task MessegerAlert(string title, string message, string accept, string cancel)
         {
             await Application.Current.MainPage.DisplayAlert(title, message, accept, cancel);
-        }
+        }        
     }
 }

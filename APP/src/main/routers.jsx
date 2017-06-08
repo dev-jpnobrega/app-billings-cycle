@@ -2,7 +2,7 @@ import React from 'react'
 import { Router, Route, Redirect, hashHistory } from 'react-router'
 
 import DashBoard from '../dashBoard/dashBoard'
-import BillingCycle from '../billingCycle/BillingCycle'
+import BillingCycle from '../billingCycle/billingCycle'
 
 export default props => (
     <Router history={hashHistory} >

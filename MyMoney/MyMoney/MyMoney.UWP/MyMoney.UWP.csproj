@@ -96,6 +96,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Authentication\SocialAuthentication.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -155,7 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyMoney\MyMoney.csproj">
-      <Project>{6525d1fb-3ec1-4ea1-82fb-b85aadbf98f8}</Project>
+      <Project>{50a2f946-c7f1-4273-ba10-19d1c94ff4aa}</Project>
       <Name>MyMoney</Name>
     </ProjectReference>
   </ItemGroup>

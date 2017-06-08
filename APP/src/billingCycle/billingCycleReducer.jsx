@@ -1,4 +1,4 @@
-const INITIAL_STATE = {list: {}}
+const INITIAL_STATE = {list: []}
 
 export default function (state = INITIAL_STATE, action) {
     switch (action.type) {

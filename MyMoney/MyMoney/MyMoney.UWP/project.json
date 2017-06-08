@@ -1,14 +1,15 @@
 ﻿{
   "dependencies": {
     "Microsoft.Azure.Mobile.Client": "3.1.0",
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
+    "Microsoft.Bcl.Build": "1.0.21",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
     "modernhttpclient": "2.4.2",
     "Xam.FormsPlugin.Iconize": "1.0.10",
     "Xam.Plugin.Iconize": "1.0.10",
     "Xam.Plugin.Iconize.FontAwesome": "1.0.10",
     "Xam.Plugins.Forms.ImageCircle": "1.8.1",
     "Xam.Plugins.Settings": "2.5.8",
-    "Xamarin.Forms": "2.3.4.224"
+    "Xamarin.Forms": "2.3.4.247"
   },
   "frameworks": {
     "uap10.0": {}
