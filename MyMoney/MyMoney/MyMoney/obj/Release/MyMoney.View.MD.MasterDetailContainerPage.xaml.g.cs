@@ -11,8 +11,13 @@
 namespace MyMoney.View.MD {
     
     
+<<<<<<< HEAD
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\jpnobrega\\app-my-money\\MyMoney\\MyMoney\\MyMoney\\View\\MD\\MasterDetailContainerPa" +
         "ge.xaml")]
+=======
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Develop\\vscode\\ReactCurs-APPCiclo\\app-billings-cycle\\MyMoney\\MyMoney\\MyMoney\\V" +
+        "iew\\MD\\MasterDetailContainerPage.xaml")]
+>>>>>>> c97830fbfa31ad8b378a9287d7f98189740077e5
     public partial class MasterDetailContainerPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

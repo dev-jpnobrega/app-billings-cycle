@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyMoney.View.BillingCycle.BillingCycleDetailView"
+             Title="{Binding Title}" xmlns:xfProxy="clr-namespace:Xamarin.Forms.Proxy;assembly=Xamarin.Forms.Core.UnitTests">
+
+    <StackLayout>
+        <StackLayout Padding="20">
+            <Label Text="{Binding BillingCycle.Name}" Style="{StaticResource Title}"></Label>
+            <Label Style="{StaticResource SubTitle}">
+                <Label.Text>
+                    <xfProxy:MultiBinding StringFormat="Mês {0}. Ano {1}">
+                        <Binding Path="BillingCycle.Mounth" />
+                        <Binding Path="BillingCycle.Year" />
+                    </xfProxy:MultiBinding>
+                </Label.Text>
+            </Label>
+        </StackLayout>
+
+        <StackLayout Padding="20,5,0,0">
+            <Label Text="Créditos" Style="{StaticResource Title}"></Label>
+            <ListView ItemsSource="{Binding BillingCycle.Credits}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="40"/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Column="0" Grid.Row="0" Text="{Binding Name}" Style="{StaticResource SubTitle}"></Label>
+                                <Label Grid.Column="1" Grid.Row="0" Text="{Binding Value, StringFormat='{0:C}'}" Style="{StaticResource SubTitle}"></Label>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
+        <StackLayout Padding="20,5,0,0">
+            <Label Text="Débitos" Style="{StaticResource Title}"></Label>
+            <ListView ItemsSource="{Binding BillingCycle.Debits}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="40"/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Column="0" Grid.Row="0" Text="{Binding Name}" Style="{StaticResource SubTitle}"></Label>
+                                <Label Grid.Column="1" Grid.Row="0" Text="{Binding Status}" Style="{StaticResource SubTitle}"></Label>
+                                <Label Grid.Column="2" Grid.Row="0" Text="{Binding Value, StringFormat='{0:C}'}" Style="{StaticResource SubTitle}"></Label>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

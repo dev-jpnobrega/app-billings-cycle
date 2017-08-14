@@ -1,0 +1,2 @@
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.UWP\MyMoney.UWP.csproj;x86
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney\MyMoney.csproj;neutral

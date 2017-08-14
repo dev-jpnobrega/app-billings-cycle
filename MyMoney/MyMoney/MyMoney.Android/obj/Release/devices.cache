@@ -1,7 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Devices>
+<<<<<<< HEAD
+=======
+  <Device id="T063201JXN">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>22</SdkVersion>
+  </Device>
+>>>>>>> c97830fbfa31ad8b378a9287d7f98189740077e5
   <Device id="PBO7SWGE8P8TCY8T">
     <ResultingAbi>armeabi-v7a</ResultingAbi>
     <SdkVersion>22</SdkVersion>
   </Device>
+<<<<<<< HEAD
+=======
+  <Device id="emulator-5554">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>22</SdkVersion>
+  </Device>
+>>>>>>> c97830fbfa31ad8b378a9287d7f98189740077e5
 </Devices>

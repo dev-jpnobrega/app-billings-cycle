@@ -130,6 +130,10 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"MyMoney.dll",
+<<<<<<< HEAD
+=======
+		"Xamarin.Forms.Core.UnitTests.dll",
+>>>>>>> c97830fbfa31ad8b378a9287d7f98189740077e5
 	};
 	public static final String[] Dependencies = new String[]{
 	};

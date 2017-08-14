@@ -25,7 +25,7 @@ namespace MyMoney.Helpers
             set
             {
                 AppSettings.AddOrUpdateValue<string>(AuthTokenKey, value);
-            }
+            }   
         }
 
         public static string UserId

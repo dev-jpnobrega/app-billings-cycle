@@ -11,7 +11,12 @@
 namespace MyMoney {
     
     
+<<<<<<< HEAD
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\jpnobrega\\app-my-money\\MyMoney\\MyMoney\\MyMoney\\App.xaml")]
+=======
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Develop\\vscode\\ReactCurs-APPCiclo\\app-billings-cycle\\MyMoney\\MyMoney\\MyMoney\\A" +
+        "pp.xaml")]
+>>>>>>> c97830fbfa31ad8b378a9287d7f98189740077e5
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

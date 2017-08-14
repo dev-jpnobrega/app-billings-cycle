@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:MyMoney"
              x:Class="MyMoney.MainPage"
              xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize"
-             Title="{Binding Title}"  BackgroundColor="#ccc"  NavigationPage.HasNavigationBar="false" IsBusy="{Binding IsBusy}">
+             Title="{Binding Title}"  BackgroundColor="Black"  NavigationPage.HasNavigationBar="false" IsBusy="{Binding IsBusy}">
     <!-- <RelativeLayout Padding="0">
         <Image
             Aspect="AspectFill"
@@ -38,8 +38,8 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <iconize:IconImage Grid.Column="0" Grid.Row="0"  VerticalOptions="Fill" HorizontalOptions="Fill" Aspect="AspectFit"  Icon="fa-facebook" IconSize="25" IconColor="White" />
-                <iconize:IconImage Grid.Column="1" Grid.Row="0"  VerticalOptions="Fill" HorizontalOptions="Fill" Aspect="AspectFit"   Icon="fa-github" IconSize="40" IconColor="White" />
+                <iconize:IconImage Grid.Column="0" Grid.Row="0"  VerticalOptions="Fill" HorizontalOptions="Fill"  Aspect="AspectFit"  Icon="fa-facebook" IconSize="25" IconColor="White" />
+                <iconize:IconImage Grid.Column="1" Grid.Row="0"  VerticalOptions="Fill" HorizontalOptions="Fill"  Aspect="AspectFit"  Icon="fa-github" IconSize="40" IconColor="White" />
                 <iconize:IconImage Grid.Column="2" Grid.Row="0"  VerticalOptions="Fill" HorizontalOptions="Fill"  Aspect="AspectFit"  Icon="fa-twitter" IconSize="25" IconColor="White" />
             </Grid>
 

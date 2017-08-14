@@ -1,4 +1,3 @@
-E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\MyMoney.Android.csprojResolveAssemblyReference.cache
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\MyMoney.Android.dll.config
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\MyMoney.Android.dll
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\MyMoney.Android.pdb
@@ -35,6 +34,7 @@ E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\Xamarin.Forms.Platform.dll
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\Xamarin.Forms.Core.UnitTests.dll
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\MyMoney.pdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\MyMoney.dll.config
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\FormsPlugin.Iconize.pdb
@@ -76,6 +76,8 @@ E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\Xamarin.Forms.Xaml.xml
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\Xamarin.Forms.Core.UnitTests.pdb
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\MyMoney.Android.csprojResolveAssemblyReference.cache
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\MyMoney.Android.dll
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\MyMoney.Android.pdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\bin\cdn.mymoneyapppackage.apk
@@ -87,10 +89,12 @@ E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\res\layout\toolbar.xml
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\res\values\styles.xml
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\res\drawable\backgroundmainpage.jpg
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\res\drawable\plus.png
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\R.cs.flag
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\uploadflags.txt
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\MyMoney.dll.mdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\MyMoney.Android.dll.mdb
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\bin\Debug\Xamarin.Forms.Core.UnitTests.dll.mdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\FormsPlugin.Iconize.dll.mdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\FormsPlugin.Iconize.Droid.dll.mdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
@@ -103,6 +107,7 @@ E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\Plugin.Iconize.Droid.dll.mdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\Plugin.Iconize.FontAwesome.Droid.dll.mdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\Xamarin.Forms.Core.UnitTests.dll.mdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 E:\jpnobrega\app-my-money\MyMoney\MyMoney\MyMoney.Android\bin\Debug\MyMoney.Android.dll.config

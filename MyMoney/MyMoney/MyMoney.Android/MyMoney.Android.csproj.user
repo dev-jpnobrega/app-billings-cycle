@@ -2,6 +2,10 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SelectedDevice>LGE LG-K130</SelectedDevice>
+<<<<<<< HEAD
     <DefaultDevice>AVD_GalaxyNexus_ToolsForApacheCordova</DefaultDevice>
+=======
+    <DefaultDevice>teste</DefaultDevice>
+>>>>>>> c97830fbfa31ad8b378a9287d7f98189740077e5
   </PropertyGroup>
 </Project>

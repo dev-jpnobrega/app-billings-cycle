@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Plugin.Iconize.FontAwesome.UWP" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Plugin.Iconize.FontAwesome.UWP">
+				<ResourceMapSubtree name="Assets">
+					<ResourceMapSubtree name="Fonts">
+						<NamedResource name="iconize-fontawesome.ttf" uri="ms-resource://Plugin.Iconize.FontAwesome.UWP/Files/Plugin.Iconize.FontAwesome.UWP/Assets/Fonts/iconize-fontawesome.ttf">
+							<Candidate type="Path">
+								<Value>Plugin.Iconize.FontAwesome.UWP\Assets\Fonts\iconize-fontawesome.ttf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyMoney.ViewModel.MasterDetail;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace MyMoney.View.MD
         public MasterDetailContainerPageDetail()
         {
             InitializeComponent();
+            this.BindingContext = new MasterDetailContainerPageDetailViewModel();
         }
     }
 }

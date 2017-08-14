@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyMoney.View.BillingCycle.BillingCycleView"
+             xmlns:controls="clr-namespace:MyMoney.Controls;assembly:MyMoney" 
+             xmlns:iconize="clr-namespace:FormsPlugin.Iconize;assembly=FormsPlugin.Iconize"
+             xmlns:xfProxy="clr-namespace:Xamarin.Forms.Proxy;assembly=Xamarin.Forms.Core.UnitTests"
+             xmlns:imagecircle="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <controls:MyListView      
+            ItemTappedCommand="{Binding ShowBillingCycleCommand}"
+            ItemsSource="{Binding BillingCycles}" 
+            HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="20">
+                            <Label Text="{Binding Name}" Style="{StaticResource Title}"></Label>
+                            <Label Style="{StaticResource SubTitle}">
+                                <Label.Text>
+                                    <xfProxy:MultiBinding StringFormat="Mês {0}. Ano {1}">
+                                        <Binding Path="Mounth" />
+                                        <Binding Path="Year" />
+                                    </xfProxy:MultiBinding>
+                                </Label.Text>
+                            </Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </controls:MyListView>
+     
+        <imagecircle:CircleImage FillColor="#690eba"  VerticalOptions="End" Margin="15"  Aspect="AspectFit" HorizontalOptions="End">       
+            <imagecircle:CircleImage.WidthRequest>
+                <OnPlatform x:TypeArguments="x:Double"
+                                          iOS="60"
+                                          Android="60"
+                                          WinPhone="60"/>
+            </imagecircle:CircleImage.WidthRequest>
+            <imagecircle:CircleImage.HeightRequest>
+                <OnPlatform x:TypeArguments="x:Double"
+                                              iOS="60"
+                                              Android="60"
+                                              WinPhone="60"/>
+            </imagecircle:CircleImage.HeightRequest>
+        </imagecircle:CircleImage>
+
+
+    </StackLayout>
+</ContentPage>

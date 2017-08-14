@@ -11,7 +11,7 @@ using MyMoney.Service.Azure;
 [assembly: Xamarin.Forms.Dependency(typeof(MyMoney.Service.Azure.AzureService))]
 namespace MyMoney.Service.Azure
 {
-    public class AzureService: IAzureService
+    public class AzureService : IAzureService
     {
         static readonly string AppUrl = Settings.UrlAppAzure;
 
@@ -58,6 +58,29 @@ namespace MyMoney.Service.Azure
             Settings.UserId = user.UserId;
 
             return true;
+        }
+
+        public async Task<bool> LogoutAsync()
+        {
+            if (!Settings.IsLoggedIn)
+                return true;
+
+            Initialize();
+
+            try
+            {
+                var auth = DependencyService.Get<IAuthentication>();
+
+                Settings.AuthToken = string.Empty;
+                Settings.UserId = string.Empty;
+                Settings.TokenAuthFacebook = string.Empty;
+
+                return await auth.LogoutAsync(Client, null);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }            
         }
 
         public async Task<Newtonsoft.Json.Linq.JToken> GetInfoProvider(string path)

@@ -88,3 +88,6 @@ E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.iOS\obj\iPhone\Debug\MyMoney.iOS.csproj.MyMoney.iOS.exe.config
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.iOS\obj\iPhone\Debug\MyMoney.iOS.exe
 E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.iOS\obj\iPhone\Debug\MyMoney.iOS.pdb
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.UnitTests.dll
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.iOS\bin\iPhone\Debug\MyMoney.dll.mdb
+E:\Develop\vscode\ReactCurs-APPCiclo\app-billings-cycle\MyMoney\MyMoney\MyMoney.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.UnitTests.pdb

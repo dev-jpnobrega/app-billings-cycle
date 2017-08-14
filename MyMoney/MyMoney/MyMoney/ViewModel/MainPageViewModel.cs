@@ -26,7 +26,9 @@ namespace MyMoney.ViewModel
 
             _IFacebookService = DependencyService.Get<IFacebookService>();
             _IAzureService = DependencyService.Get<IAzureService>();
-            
+
+
+            _IAzureService.LogoutAsync();
             LoginFacebookCommand = new Command(ExecuteLoginFacebookCommand);
         }
 
