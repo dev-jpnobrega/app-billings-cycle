@@ -5,7 +5,7 @@ import { bindActionCreators } from 'redux'
 import getSummary from './dashboardAction'
 import ContentHeader from '../common/template/contentHeader'
 import Content from '../common/template/content'
-import ValueBox from '../common/widget/valuebox'
+import ValueBox from '../common/widget/valueBox'
 import Rows from '../common/layout/row'
 
 class DashBoard extends Component {
@@ -16,7 +16,7 @@ class DashBoard extends Component {
 
     render() {
         const { credit, debit } = this.props.summary
-
+        
         return (   
             <div>
                 <ContentHeader title="DashBoard" subTitle="Sub titulo"></ContentHeader>

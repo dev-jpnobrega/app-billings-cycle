@@ -1,49 +1,55 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { GetList } from './billingCycleAction'
+import { getList, showUpdate, showDelete } from './billingCycleAction'
 
 class BillingCycleList extends Component {
     componentWillMount() {
-        this.props.GetList();
+        this.props.getList();
     }
 
-    renderRows() {
-        console.log(this.props.list)
+    renderRows() {     
         const bcs = this.props.list || []
-     
+        
         return bcs.map(bc => (
             <tr key={bc._id}>
                 <td>{bc.name}</td>
                 <td>{bc.month}</td>
                 <td>{bc.year}</td>
+                <td>
+                    <button className='btn btn-warning' onClick={() => this.props.showUpdate(bc)} >
+                        <i className='fa fa-pencil'></i>
+                    </button> 
+                
+                    <button className='btn btn-danger' onClick={() => this.props.showDelete(bc)}>
+                        <i className='fa fa-trash-o'></i>
+                    </button> 
+                </td>
             </tr>
         ))
     }
 
-    render() {
-       console.log(this.props.list)
-       
-       const s = (
+    render() {    
+       return (
             <div>
-                <table>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Mês</th>
-                        <th>Ano</th>
-                    </tr>
+                <table className='table'>
+                    <thead>
+                        <tr>
+                            <th className='table-actions'>Nome</th>
+                            <th className='table-actions'>Mês</th>
+                            <th className='table-actions'>Ano</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {this.renderRows()}
+                    </tbody>
                 </table>
-                <tbody>
-         
-                </tbody>
             </div>
         )
-
-        return s
     }
 }
 
 const mapStateToProps = state => ({list: state.billingCycle.list}) 
-const mapDispatchToProps = dispatch => bindActionCreators({GetList}, dispatch)
+const mapDispatchToProps = dispatch => bindActionCreators({ getList, showUpdate, showDelete }, dispatch)
 
 export default connect(mapStateToProps, mapDispatchToProps)(BillingCycleList)
